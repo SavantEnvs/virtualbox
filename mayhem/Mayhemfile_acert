@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: acert
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/acert
+    libfuzzer: true
+    timeout: 30

@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: cmp
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/cmp
+    libfuzzer: true
+    timeout: 30

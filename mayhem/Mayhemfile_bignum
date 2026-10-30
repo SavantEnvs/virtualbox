@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: bignum
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/bignum
+    libfuzzer: true
+    timeout: 30

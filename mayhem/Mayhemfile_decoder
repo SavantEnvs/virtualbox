@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: decoder
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/decoder
+    libfuzzer: true
+    timeout: 30

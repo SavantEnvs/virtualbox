@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: hashtable
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/hashtable
+    libfuzzer: true
+    timeout: 30

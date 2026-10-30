@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: quic_lcidm
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/quic_lcidm
+    libfuzzer: true
+    timeout: 30

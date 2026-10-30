@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: crl
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/crl
+    libfuzzer: true
+    timeout: 30

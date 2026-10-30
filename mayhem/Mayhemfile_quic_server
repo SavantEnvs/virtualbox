@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: quic_server
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/quic_server
+    libfuzzer: true
+    timeout: 30

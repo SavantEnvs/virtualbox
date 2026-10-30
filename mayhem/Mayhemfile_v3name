@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: v3name
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/v3name
+    libfuzzer: true
+    timeout: 30

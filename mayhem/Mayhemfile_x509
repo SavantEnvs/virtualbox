@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: x509
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/x509
+    libfuzzer: true
+    timeout: 30

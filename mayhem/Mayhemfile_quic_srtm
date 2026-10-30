@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: quic_srtm
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/quic_srtm
+    libfuzzer: true
+    timeout: 30

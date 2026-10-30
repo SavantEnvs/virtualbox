@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: pem
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/pem
+    libfuzzer: true
+    timeout: 30

@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: punycode
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/punycode
+    libfuzzer: true
+    timeout: 30

@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: bndiv
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/bndiv
+    libfuzzer: true
+    timeout: 30

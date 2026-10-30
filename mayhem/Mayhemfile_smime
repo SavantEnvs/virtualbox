@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: smime
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/smime
+    libfuzzer: true
+    timeout: 30

@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: asn1
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/asn1
+    libfuzzer: true
+    timeout: 30

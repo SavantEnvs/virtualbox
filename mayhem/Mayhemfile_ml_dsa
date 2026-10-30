@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: ml_dsa
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/ml_dsa
+    libfuzzer: true
+    timeout: 30

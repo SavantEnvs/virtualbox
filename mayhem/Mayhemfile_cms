@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: cms
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/cms
+    libfuzzer: true
+    timeout: 30

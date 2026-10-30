@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: dtlsclient
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/dtlsclient
+    libfuzzer: true
+    timeout: 30

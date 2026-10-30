@@ -1,0 +1,6 @@
+project: savantenvs/virtualbox
+target: provider
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/provider
+    libfuzzer: true
+    timeout: 30
