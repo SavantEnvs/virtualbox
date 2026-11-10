@@ -1,0 +1,9 @@
+project: savantenvs/virtualbox
+target: gzread-mined-dc0b1be
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gzread-mined-dc0b1be/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/gzread
+    libfuzzer: true
+    timeout: 30
